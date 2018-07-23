@@ -98,15 +98,20 @@ textarea {
    ========================================================================== */
 
 
+.row{
+	position: relative;
+	
+}
 
 
-
-
-
-
-
-
-
+.centerd{
+	position: absolute;
+	top: 40%;
+	left: 2%;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 30px;
+ 
+}
 
 
 
