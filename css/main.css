@@ -98,8 +98,16 @@ textarea {
 body{
 	margin: 0;
 	padding: 0;
+	background-color: #343a40;
 }
 
+header{
+	text-decoration-color: white;
+	height: 97px;
+}
+.navbar{
+	color: white;
+}
 .row{
 	position: relative;
 	
@@ -118,9 +126,15 @@ body{
 .text-center{
 	padding-top: 5%;
 }
+.nice{
+	padding-top: 15px;
+}
 
-
-
+@media (max-width: 1240px) {
+	.nice{
+		display: none;
+	}
+}
 
 
 
