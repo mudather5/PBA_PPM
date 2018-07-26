@@ -102,7 +102,7 @@ body{
 }
 
 header{
-	text-decoration-color: white;
+	color: white;
 	height: 97px;
 }
 .navbar{
@@ -110,6 +110,7 @@ header{
 }
 .row{
 	position: relative;
+	width: 99%;
 	
 }
 .flex-fill{
@@ -129,6 +130,18 @@ header{
  
 }
 
+
+.text-block1{
+	position: absolute;
+	top: 30%;
+	left: 15px;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 30px;
+	font-family: "loveloblack";
+	font-size: 1.8rem;
+	
+}
+
 .green:hover{
 	color: red;
 }
@@ -141,17 +154,121 @@ header{
 }
 
 @media (max-width: 576px) {
+	.d-flex img{
+		display: none;
+		width: 99%;
+	}
+	
+	.row img{
+		text-align: center;
+		max-width: 99%;
+	}
+	.text-block{
+		text-align: center;
+	}
+	.text-block1{
+		position: relative;
+		text-align: center;
+		height: 62.5px;
+		padding: 12.5px 12.5px 0 12.5px;
+		margin-bottom: 22.5px;
+		padding-top: 0;
+		line-height: 62.5px;
+		width: 98%;
+	}
+	
 	.d-flex{
 		flex-direction: column;
-		width: 100%;
 	}
+	
 }
+/*@media (max-width: 768px) {
+	.d-flex img{
+		display: none;
+		width: 99%;
+	}
+	
+	.text-block1{
+		position: relative;
+		text-align: center;
+		height: 70px;
+		padding: 12.5px 12.5px 0 12.5px;
+		margin-bottom: 22.5px;
+		padding-top: 0;
+		line-height: 62.5px;
+		width: 98%;
+	}
+	
+	.d-flex{
+		flex-direction: column;
+	}
+}*/
 
 @media (max-width: 1240px) {
 	.nice{
 		display: none;
 	}
 	
+	
+}
+
+
+@media (max-width: 992px) {
+	
+	.d-flex img{
+		display: none;
+		width: 99%;
+	}
+	
+	.text-block1{
+		position: relative;
+		text-align: center;
+		height: 70px;
+		padding: 12.5px 12.5px 0 12.5px;
+		margin-bottom: 22.5px;
+		padding-top: 0;
+		line-height: 62.5px;
+		width: 98%;
+	}
+	
+	.d-flex{
+		flex-direction: column;
+		text-align: center;
+	}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {
+	.d-flex img{
+		display: none;
+	}
+	
+	.text-block1{
+		position: relative;
+		height: 100px;
+		padding: 12.5px 12.5px 0 12.5px;
+		margin-bottom: 22.5px;
+		padding-top: 25px;
+		line-height: 62.5px;
+		width: 82%;
+		margin-left: 12%;
+	}
+	
+	img{
+		text-align: center;
+		max-width: 99%;
+	}
+	.d-flex{
+		flex-direction: column;
+		text-align: center;
+	}
+	.text-block{
+		padding: 0;
+		text-align: center;
+	}
+	
+
 	
 }
 
