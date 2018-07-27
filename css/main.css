@@ -122,11 +122,11 @@ header{
 }
 
 .last{
-	position: absolute;
+	/*position: absolute;*/
     text-align: center;
     background-color: #D8383F;
     color: white;
-    padding-top: 4%;
+   /* padding-top: 4%;*/
     width: 100%;
 }
 
@@ -163,7 +163,9 @@ header{
 	color: #D8383F;*/
 }
 
-
+footer{
+	margin-bottom: auto;
+}
 .text-block{
 	position: absolute;
 	top: 40%;
@@ -196,6 +198,12 @@ header{
 }
 .nice{
 	padding-top: 15px;
+}
+.footer{
+	border-bottom: solid 3px white; 
+}
+.share{
+	padding-top: 20px;
 }
 
 
@@ -241,11 +249,10 @@ header{
 
 
 .last{
-	position: absolute;
+	/*position: absolute;*/
     text-align: center;
     background-color: #D8383F;
     color: white;
-    padding-top: 15%;
     
 }
 }
@@ -293,11 +300,11 @@ header{
 
 
 .last{
-	position: absolute;
+	/*position: absolute;*/
     text-align: center;
     background-color: #D8383F;
     color: white;
-    padding-top: 10%;
+   
     
 }
 
@@ -348,11 +355,11 @@ header{
 
 
 .last{
-	position: absolute;
+	/*position: absolute;*/
     text-align: center;
     background-color: #D8383F;
     color: white;
-    padding-top: 10%;
+  
     
 }
 
@@ -405,11 +412,11 @@ header{
 
 
 .last{
-	position: absolute;
+	/*position: absolute;*/
     text-align: center;
     background-color: #D8383F;
     color: white;
-    padding-top: 10%;
+  
     
 }
 
