@@ -110,12 +110,57 @@ header{
 }
 .row{
 	position: relative;
-	width: 99%;
-	
+	width: 100%;
+}
+
+.d-flex{
+	width: 100%;
 }
 .flex-fill{
 	position: relative;
 
+}
+
+.last{
+	position: absolute;
+    text-align: center;
+    background-color: #D8383F;
+    color: white;
+    padding-top: 4%;
+    width: 100%;
+}
+
+.text-block{
+	position: absolute;
+	top: 40%;
+	left: 15px;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 30px;
+	font-family: "loveloblack";
+	font-size: 1.8rem;
+ 
+}
+
+
+.text-block1{
+	position: absolute;
+	top: 30%;
+	left: 15px;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 30px;
+	font-family: "loveloblack";
+	font-size: 1.8rem;
+	
+}
+
+
+.last:hover{
+	background-color: white;
+}
+
+
+/*p:hover,h6:hover{
+	color: #D8383F;*/
 }
 
 
@@ -153,15 +198,18 @@ header{
 	padding-top: 15px;
 }
 
+
+/*Small devices (landscape phones, 576px and up)*/
+
 @media (max-width: 576px) {
 	.d-flex img{
 		display: none;
-		width: 99%;
+		width: 100%;
 	}
 	
-	.row img{
-		text-align: center;
-		max-width: 99%;
+	.green img{
+
+		max-width: 100%;
 	}
 	.text-block{
 		text-align: center;
@@ -172,46 +220,94 @@ header{
 		height: 62.5px;
 		padding: 12.5px 12.5px 0 12.5px;
 		margin-bottom: 22.5px;
-		padding-top: 0;
 		line-height: 62.5px;
-		width: 98%;
+		width: 100%;
 	}
 	
 	.d-flex{
 		flex-direction: column;
 	}
 	
+	
+	h6{
+	position: relative;
+   	border: solid 3px white;
+    width: 100%;
+    height: 35%;
+    padding: 30px 0 24px 0;
+    max-width: none;
+    
 }
-/*@media (max-width: 768px) {
+
+
+.last{
+	position: absolute;
+    text-align: center;
+    background-color: #D8383F;
+    color: white;
+    padding-top: 15%;
+    
+}
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
 	.d-flex img{
 		display: none;
-		width: 99%;
+		width: 100%;
 	}
 	
+	.green img{
+
+		max-width: 100%;
+	}
+	.text-block{
+		margin-left: 5%;
+	}
 	.text-block1{
 		position: relative;
 		text-align: center;
-		height: 70px;
+		height: 62.5px;
 		padding: 12.5px 12.5px 0 12.5px;
 		margin-bottom: 22.5px;
 		padding-top: 0;
 		line-height: 62.5px;
-		width: 98%;
+		width: 100%;
 	}
 	
 	.d-flex{
 		flex-direction: column;
 	}
-}*/
-
-@media (max-width: 1240px) {
-	.nice{
-		display: none;
-	}
 	
-	
+	h6{
+	position: relative;
+   	border: solid 3px white;
+    width: 100%;
+    /*margin: 19%;*/
+    height: 35%;
+    padding: 30px 0 24px 0;
+    max-width: none;
+    
 }
 
+
+.last{
+	position: absolute;
+    text-align: center;
+    background-color: #D8383F;
+    color: white;
+    padding-top: 10%;
+    
+}
+
+}
+
+
+
+	
+
+/* Large devices (desktops, 992px and up)*/
 
 @media (max-width: 992px) {
 	
@@ -226,7 +322,6 @@ header{
 		height: 70px;
 		padding: 12.5px 12.5px 0 12.5px;
 		margin-bottom: 22.5px;
-		padding-top: 0;
 		line-height: 62.5px;
 		width: 98%;
 	}
@@ -235,6 +330,31 @@ header{
 		flex-direction: column;
 		text-align: center;
 	}
+	.green img{
+		width: 100%;
+	}
+	
+
+	h6{
+	position: relative;
+   	border: solid 3px white;
+    /*margin: 19%;*/
+    height: 35%;
+    padding: 30px 0 24px 0;
+    max-width: none;
+	text-align: center;
+    
+}
+
+
+.last{
+	position: absolute;
+    text-align: center;
+    background-color: #D8383F;
+    color: white;
+    padding-top: 10%;
+    
+}
 
 }
 
@@ -255,24 +375,55 @@ header{
 		margin-left: 12%;
 	}
 	
-	img{
+	.green img{
 		text-align: center;
 		max-width: 99%;
 	}
 	.d-flex{
 		flex-direction: column;
 		text-align: center;
+		width: 100%;
 	}
 	.text-block{
-		padding: 0;
+		padding: 0 10px 20px 0;
 		text-align: center;
 	}
 	
+	h6{
+	position: relative;
+   	border: solid 3px white;
+    width: 100%;
+    /*margin: 19%;*/
+    height: 35%;
+    padding: 30px 0 24px 0;
+    max-width: none;
+	text-align: center;
+    
+}
+    
+}
+
+
+.last{
+	position: absolute;
+    text-align: center;
+    background-color: #D8383F;
+    color: white;
+    padding-top: 10%;
+    
+}
+
 
 	
 }
 
-
+@media (max-width: 1240px) {
+	.nice{
+		display: none;
+	}
+	
+	
+}
 
 /* ==========================================================================
    Helper classes
