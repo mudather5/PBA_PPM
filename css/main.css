@@ -102,10 +102,10 @@ body{
 }
 
 header{
-	color: white;
+	text-decoration-color: white;
 	height: 97px;
 }
-.navbar{
+.navbar-light{
 	color: white;
 }
 .row{
@@ -205,6 +205,11 @@ footer{
 .share{
 	padding-top: 20px;
 }
+.like{
+	border: solid 3px white;
+	height: 50px;
+	padding-top: 10px;
+}
 
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -255,6 +260,9 @@ footer{
     color: white;
     
 }
+.nice{
+	display: none;
+	}
 }
 
 
@@ -307,6 +315,9 @@ footer{
    
     
 }
+	.nice{
+	display: none;
+	}
 
 }
 
@@ -320,7 +331,7 @@ footer{
 	
 	.d-flex img{
 		display: none;
-		width: 99%;
+		width: 100%;
 	}
 	
 	.text-block1{
@@ -338,7 +349,10 @@ footer{
 		text-align: center;
 	}
 	.green img{
-		width: 100%;
+		max-width: 100%;
+	}
+	.befor{
+		width: 10
 	}
 	
 
@@ -362,6 +376,9 @@ footer{
   
     
 }
+	.nice{
+	display: none;
+	}
 
 }
 
@@ -384,7 +401,7 @@ footer{
 	
 	.green img{
 		text-align: center;
-		max-width: 99%;
+		width: 100%;
 	}
 	.d-flex{
 		flex-direction: column;
