@@ -95,25 +95,19 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body{
+.mudather{
 	margin: 0;
 	padding: 0;
 	background-color: #343a40;
 }
 
-header{
-	text-decoration-color: white;
-	height: 97px;
-}
-.navbar-light{
-	color: white;
-}
-.row{
+
+.mudather .row{
 	position: relative;
 	width: 100%;
 }
 
-.d-flex{
+.main_visiter .d-flex{
 	width: 100%;
 }
 .flex-fill{
@@ -159,13 +153,6 @@ header{
 }
 
 
-/*p:hover,h6:hover{
-	color: #D8383F;*/
-}
-
-footer{
-	margin-bottom: auto;
-}
 .text-block{
 	position: absolute;
 	top: 40%;
@@ -196,26 +183,11 @@ footer{
 .text-center{
 	padding-top: 5%;
 }
-.nice{
-	padding-top: 15px;
-}
-.footer{
-	border-bottom: solid 3px white; 
-}
-.share{
-	padding-top: 20px;
-}
-.like{
-	border: solid 3px white;
-	height: 50px;
-	padding-top: 10px;
-}
-
 
 /*Small devices (landscape phones, 576px and up)*/
 
 @media (max-width: 576px) {
-	.d-flex img{
+	.main_visiter .d-flex img{
 		display: none;
 		width: 100%;
 	}
@@ -237,12 +209,12 @@ footer{
 		width: 100%;
 	}
 	
-	.d-flex{
+	.main_visiter .d-flex{
 		flex-direction: column;
 	}
 	
 	
-	h6{
+	.last h6{
 	position: relative;
    	border: solid 3px white;
     width: 100%;
@@ -252,23 +224,12 @@ footer{
     
 }
 
-
-.last{
-	/*position: absolute;*/
-    text-align: center;
-    background-color: #D8383F;
-    color: white;
-    
-}
-.nice{
-	display: none;
-	}
 }
 
 
 /*Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) {
-	.d-flex img{
+	.main_visiter .d-flex img{
 		display: none;
 		width: 100%;
 	}
@@ -291,11 +252,11 @@ footer{
 		width: 100%;
 	}
 	
-	.d-flex{
+	.main_visiter .d-flex{
 		flex-direction: column;
 	}
 	
-	h6{
+	.last h6{
 	position: relative;
    	border: solid 3px white;
     width: 100%;
@@ -305,19 +266,6 @@ footer{
     max-width: none;
     
 }
-
-
-.last{
-	/*position: absolute;*/
-    text-align: center;
-    background-color: #D8383F;
-    color: white;
-   
-    
-}
-	.nice{
-	display: none;
-	}
 
 }
 
@@ -329,7 +277,7 @@ footer{
 
 @media (max-width: 992px) {
 	
-	.d-flex img{
+	.main_visiter .d-flex img{
 		display: none;
 		width: 100%;
 	}
@@ -344,7 +292,7 @@ footer{
 		width: 98%;
 	}
 	
-	.d-flex{
+	.main_visiter .d-flex{
 		flex-direction: column;
 		text-align: center;
 	}
@@ -356,7 +304,7 @@ footer{
 	}
 	
 
-	h6{
+	.last h6{
 	position: relative;
    	border: solid 3px white;
     /*margin: 19%;*/
@@ -367,24 +315,11 @@ footer{
     
 }
 
-
-.last{
-	/*position: absolute;*/
-    text-align: center;
-    background-color: #D8383F;
-    color: white;
-  
-    
-}
-	.nice{
-	display: none;
-	}
-
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (max-width: 1200px) {
-	.d-flex img{
+	.main_visiter .d-flex img{
 		display: none;
 	}
 	
@@ -403,7 +338,7 @@ footer{
 		text-align: center;
 		width: 100%;
 	}
-	.d-flex{
+	.main_visiter .d-flex{
 		flex-direction: column;
 		text-align: center;
 		width: 100%;
@@ -413,7 +348,7 @@ footer{
 		text-align: center;
 	}
 	
-	h6{
+	.last h6{
 	position: relative;
    	border: solid 3px white;
     width: 100%;
@@ -427,27 +362,6 @@ footer{
     
 }
 
-
-.last{
-	/*position: absolute;*/
-    text-align: center;
-    background-color: #D8383F;
-    color: white;
-  
-    
-}
-
-
-	
-}
-
-@media (max-width: 1240px) {
-	.nice{
-		display: none;
-	}
-	
-	
-}
 
 /* ==========================================================================
    Helper classes
